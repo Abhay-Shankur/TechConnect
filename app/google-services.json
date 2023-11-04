@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398620561754",
+    "project_id": "techconnect-fc10e",
+    "storage_bucket": "techconnect-fc10e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398620561754:android:e54c34fbe1ba3826ffe363",
+        "android_client_info": {
+          "package_name": "com.example.mp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbSBZYBgqNzbVjC1xc8A53IO_OIubaQqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

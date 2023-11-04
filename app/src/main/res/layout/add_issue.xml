@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/screen_background_dark_transparent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Add Issue"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/issue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="What is issue?"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/issue"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Who's raising this issue"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/person"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Issue found at"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dept"
+        android:layout_marginTop="30dp"
+        android:text="Submit" />
+</RelativeLayout>
